@@ -1,0 +1,29 @@
+.parent-div {
+    display: grid; /*makes the parent container*/
+    width: 400px;
+    height: 800px;
+    border: 2px solid red;
+    padding: 12px;
+    background-color: cadetblue;
+    grid-template-columns: 100px 100px 100px;  /* 1/4  2/4  1/4 */
+    grid-template-rows: repeat(3, 200px);
+    justify-content: space-evenly; /*controls how the item in the grid container are arranged horizontally*/
+    align-content: space-between; /*controls how the item in the grid container are arranged vertically*/
+
+    /*place-content: end space-between;    /*controls how the item in the grid container vertically and horizontally*/
+
+    justify-items: stretch;/*controls alignment inside grid item horizontally*/
+    align-items: stretch; /*controls alignment inside grid item vertically*/
+
+    /*place-items: end stretch; /*controls alignment inside grid item vertically and horizontally*/
+}
+
+.child {
+    border: 1px solid black;
+    background-color: brown;
+    padding: 5px;
+    font-weight: bold;  
+    text-align: center;
+}
+
+

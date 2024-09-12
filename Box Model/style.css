@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+#div1 {
+    border: solid red 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    /* width: 400px; */
+    min-height: 50px;
+    max-height: 500px;
+    max-width: 500px;
+    background-color: aqua !important;
+    /* box-sizing: border-box; */
+}
+#div2 {
+    border: solid blue 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 100px;
+    box-sizing: content-box;
+}
+#div3 {
+    border: solid orange 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+#div1 {
+    background-color: gray;
+}
+
+
+
+/* 
+border: 0.5rem solid rgba(9, 219, 72, 0.88);
+border: solid rgba(9, 219, 72, 0.88) 2px; 
+border: dotted rgba(9, 219, 72, 0.88) 1px;
+ 
+border: dashed rgba(9, 219, 72, 0.88);
+border: thick double rgba(9, 219, 72, 0.88);
+border: 4mm ridge rgba(9, 219, 72, 0.88); 
+*/

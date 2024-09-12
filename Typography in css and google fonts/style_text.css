@@ -1,0 +1,75 @@
+.heading {
+    color: red;
+    text-decoration: underline;
+    background-color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+#p1 {
+    color: rgba(0, 133, 249,1);
+    line-height: 30px;
+    word-spacing: 15px;
+    text-indent: 50px;
+}
+
+#text {
+    text-decoration: overline underline line-through;
+}
+
+#p2 {
+    text-align: justify;
+    /* white-space: pre-wrap; */
+}
+
+#a {
+    text-transform: lowercase;
+}
+#b {
+    text-transform: uppercase;  
+}
+#c {
+    text-transform: capitalize;
+}
+
+#p3 {
+    white-space: normal;    
+}
+#p4 {
+    white-space: nowrap;
+}
+#p5 {
+    white-space: pre;
+}
+
+#shadow {
+    text-shadow: 3px 1px 10px rgb(61, 7, 238);   /* x-axis | y-axis | opacity */
+}
+
+.rtl {
+    direction: rtl;
+}
+
+#div1 {
+    white-space: nowrap;
+    width:100px;
+    overflow:hidden;
+    text-overflow: clip;
+    border: 2px solid #000000;
+}
+#div2 {
+    white-space: nowrap;
+    width:100px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    border: 2px solid #000000;
+}
+#div3 {
+    white-space: nowrap;
+    width:100px;
+    overflow:hidden;
+    text-overflow: "----";
+    border: 2px solid #000000;
+}

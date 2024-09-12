@@ -1,0 +1,72 @@
+.rotate {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 15px;
+    transform: rotate(-30deg); /* ----->  anti-clockwise direction*/
+    /* transform: rotate(30deg); -----> clockwise direction*/
+
+}
+
+.rotateX {
+    width: 100px;
+    height: 100px;
+    background-color: blue; 
+    transform: rotateX(30deg); /*Stretch*/
+    transform: rotateY(30deg); /*thin*/
+}
+
+.rotate3d {
+    width: 100px;
+    height: 100px;
+    background-color: thistle;
+    transform: rotate3d(1,1,1,45deg);
+}
+
+h1 {
+    transform: rotateX(180deg) /*----> Rotate about X-axis*/ 
+    /*transform: rotateY(180deg) /*Rotate about Y-axis*/
+}
+
+.translation {
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    transform: translate(30px, 40px); /*horizontal, vertical*/
+}
+
+.scale {
+    width: 100px;
+    height: 100px;
+    background-color: slateblue;
+    transform: scale(2,2); /*increase the size of div 3 times*/
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.skew {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    transform: skew(30deg); /*it stretch the box from X and Y axis*/
+}
+
+.matrix-1{
+    margin: 150px;
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+    transform: matrix(5,3,3,5,550,250);
+}
+
+.matrix-2 {
+    margin-top: 700px;
+    margin-left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    transform: scale(2) rotate(20deg) skew(30deg) translate(50px,60px);
+}

@@ -1,0 +1,13 @@
+.para {
+    width: 250px;
+    overflow: scroll;
+    height: 500px;
+}
+
+.chat-icon {
+    width: fit-content;
+    float: right;
+    position: fixed;
+    bottom: 150px;
+    right: 85%;
+}

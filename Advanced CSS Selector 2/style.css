@@ -1,0 +1,36 @@
+h1, h2 {
+    color: red;
+}
+
+
+#sample::before {
+    content: "Before content";
+}
+
+#sample::after {
+    content: "After content";
+}
+
+#sample::first-line {
+    background-color: aqua;
+    font-size: larger;
+}
+
+#sample::first-letter {
+    font-size: 80px;
+    font-style:italic;
+    background-color: white;
+}
+
+input::placeholder {
+    background-color:darkkhaki;
+}
+
+li::marker {
+    content: '⇒ ';
+}
+
+p::selection {
+    color:slateblue;
+    background-color: yellow;
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: azure;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD12xdXTEM_aA24opzrBFMD1BvTc0FuEzqyw&s);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    color: red;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+p{
+    font-size: xx-large;
+    color: hotpink;
+}
+

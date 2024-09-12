@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ol {
+            list-style-type:lower-roman;
+        }
+
+        th {
+            border: 3px solid yellow;
+            border-left: 5px solid magenta;
+        }
+
+        table, th, td {
+            padding: 20px;
+            border-spacing: 10px;
+            background-color: aqua;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Lists -->
+
+    <ul type="square">
+        <li>item 1</li>
+        <ul>
+            <li>sublist item 1</li>
+            <li>sublist item 2</li>
+            <li>sublist item 3</li>
+        </ul>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <ol start="6">
+        <li>item 1</li>
+        <li>item 2</li>
+        <ol type="i">
+            <li>sublist item 1</li>
+            <li type="I">sublist item 2</li>
+            <li type="A">sublist item 3</li>
+        </ol>
+        <li>item 3</li>
+    </ol>
+
+
+
+
+
+    <!-- Table -->
+
+    <table border="1" bgcolor="white">
+
+        <thead>
+            <tr bgcolor="red">
+                <th>Name</th>
+                <th>Age</th>
+                <th bgcolor="hotpink">Branch</th>
+                <th>Company</th>
+                <th>Past Companies</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+
+            <tr>
+                <td>Goku</td>
+                <td>23</td>
+                <td>CSE</td>
+                <td>TCS</td>
+                <td rowspan="4">Insta id</td>
+            </tr>
+            <tr>
+                <td>Gopal</td>
+                <td>26</td>
+                <td>ECE</td>
+                <td>Wipro</td>
+            </tr>
+            <tr>
+                <td>Laxman</td>
+                <td>29</td>
+                <td style="background-color: green;">AIML</td>
+                <td>Google</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">THE END</td>
+            </tr>
+
+        </tbody>
+
+
+    </table>
+    
+</body>
+</html>

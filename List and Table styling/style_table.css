@@ -1,0 +1,28 @@
+td,th,tr {
+    border: 2px solid red;
+}
+/* 
+tr {
+    border-bottom: 2px solid red;
+}
+*/
+
+table {
+    /* border-collapse: collapse; */
+    caption-side:bottom;
+    empty-cells: hide;
+    width: 260px;
+    table-layout: auto;
+    border-spacing: 10px 20px;
+} 
+
+th, td {
+    width: 200px;
+    padding: 10px;  
+    text-align: center;
+}
+
+tr:hover {
+    background-color: yellow;
+    color: black;
+}

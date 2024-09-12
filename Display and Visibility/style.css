@@ -1,0 +1,17 @@
+#div1, #div2, #div3, #div4 {
+    text-align: center;
+    display: inline-block;
+}
+
+table {
+    text-align: center;
+    border: 2px solid red;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.collapse {
+    visibility: collapse;
+}

@@ -1,0 +1,18 @@
+.transiiton {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 20px;
+    /* transition-property: background-color;
+    transition-duration: 5s;
+    transition-delay: 3s;
+    transition-timing-function: ease-in; */
+    /* transition: background-color 5s ease-in 2s; */
+    transition: width 6s ease 0s, background-color 3s ease 0s;
+    
+}
+
+.transiiton:hover {
+    background-color:red;
+    width: 600px;
+}

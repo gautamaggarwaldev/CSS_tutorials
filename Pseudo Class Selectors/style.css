@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: thistle;
+}
+
+input:focus {
+    color: brown;
+    background-color: blueviolet;
+}
+
+p:first-child {
+    /*p tag which is the first child of the its parent*/
+    color: darkmagenta;
+}
+
+p:last-child {
+    /*p tag which is the last child of the its parent*/
+    color: chartreuse;
+}
+
+p:nth-child(3) {
+    color:violet
+}
+
+p:nth-last-child(1) {
+    color:bisque; /*color the last element*/
+}
+
+p:nth-last-of-type(6) {
+    border: 2px solid yellow;
+}

@@ -1,0 +1,32 @@
+#a {
+    list-style-image: url(soft-drinks-images/1.jpeg);
+    color: red;
+}
+#b {
+    list-style-image: url(soft-drinks-images/6.jpeg);
+    color: rgb(29, 1, 96)
+}
+#c {
+    list-style-image: url(soft-drinks-images/3.jpeg);
+    color: rgba(0, 73, 0, 0.947);
+}
+#d {
+    list-style-image: url(soft-drinks-images/2.jpeg);
+    color: darkgreen
+}
+#e {
+    list-style-image: url(soft-drinks-images/5.jpeg);
+    color: green
+}
+#f {
+    list-style-image: url(soft-drinks-images/4.jpeg);
+    color: orange
+}
+
+#ul1 {
+    list-style-position: outside;
+}
+
+#ul2 {
+    list-style:upper-roman inside none;
+}

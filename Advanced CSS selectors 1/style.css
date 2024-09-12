@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar {
+    height: 75px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 20px;
+    background-color: thistle;
+    list-style-type: none;
+    padding: 3px 2px;
+}
+
+li {
+    border: 1px solid black;
+    padding: 4px 5px;
+    border-radius: 5px;
+    background-color: rgb(49, 6, 241);
+}
+
+span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    /*Apply the following styling is screen width is <= 600px*/
+    ul {
+        flex-direction: row;
+    }
+}
+
+
+/*Advanced CSS Selectors*/
+h1, h2, .navlink, #pa {
+    color: red;
+}
+
+nav span { /*Desendant combinatro*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+li span {
+    text-decoration: line-through;
+}
+
+li > span { /*immediate desendant combinator*/
+    /*those span tags which are immediate child of li*/
+    text-transform: uppercase;
+}
+
+h1 + p{ /*Adjacent Sibling Combinator*/
+    color: rgb(0, 45, 128);
+    font-weight: bolder;
+}
+
+h2 ~ p { /*General sibling combinator*/
+    color:darkgreen;
+    font-weight: bolder;
+}

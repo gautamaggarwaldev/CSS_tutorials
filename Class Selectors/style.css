@@ -1,0 +1,19 @@
+/* this is a class selector */
+.heading {
+    color: yellowgreen;
+}
+
+/* this is a id selector and grouping of selector*/
+#middle, p {
+    color: coral;
+}
+
+/* grouping of selectors */
+h1,p {
+    font-size: xx-large ;
+}
+
+* {
+    background-color: azure;
+}
+

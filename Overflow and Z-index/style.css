@@ -1,0 +1,36 @@
+body {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+div {
+    margin: 2em;
+    font-size: 1.2em;
+}
+
+p {
+    width: 5em;
+    height: 5em;
+    border: dotted;
+    margin-top: 0.5em;
+}
+
+
+
+
+.visible {
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.clip{
+    overflow: clip;
+}

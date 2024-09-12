@@ -1,0 +1,53 @@
+.div-1 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.div-1:hover {
+    animation-name: widthandcolor;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    /* animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1); */
+    /* animation-direction: alternate-reverse; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes widthandcolor {
+    0% {
+        background-color: aqua;
+        width: 200px;
+    }
+    /* 50% {
+        background-color: violet;
+        width: 400px;
+    } */
+    100% {
+        background-color: bisque;
+        width: 700px;
+    }
+}
+
+.div-2 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin-top: 50px;
+}
+
+.div-2 {
+    animation: changemode;
+    /* @keyframes duration | easing-function | delay |
+    iteration-count | direction | fill-mode | play-state | name */
+    animation: 5s ease 0s infinite alternate changemode;
+}
+
+@keyframes changemode {
+    from {
+        transform: translateX(110vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

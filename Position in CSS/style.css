@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.div1 {
+    color: aqua;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    
+}
+.div2 {
+    color: rgb(255, 0, 0);
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 40px;
+    left: 40px;
+}
+.div3 {
+    color: aqua;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+#parent-div {
+    background-color: khaki;
+    position: relative;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}

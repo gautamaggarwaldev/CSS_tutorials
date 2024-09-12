@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: #04fa56;
+}
+
+b {
+    color: hsla(244, 85%, 51%, 0.848);
+}
+
+h2 {
+    opacity: .3;
+}
+
+img {
+    opacity: 0.6;
+}
+
+/* rgba
+rgb
+hsl (hue saturation lightness) */

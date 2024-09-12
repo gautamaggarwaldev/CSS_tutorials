@@ -1,0 +1,48 @@
+.parent {
+    width: 100%;
+    background-color:grey;
+    border: 2px solid bisque;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: "header header header header header header"
+                         "menu content content  content content ads"
+                         "menu content content  content content ads"
+                         "menu content content  content content ads"
+                         "footer footer footer footer footer footer";
+    gap: 5px;
+}
+
+.header {
+    grid-area: header;
+    border: 1px solid black;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.menu {
+    grid-area: menu;
+    border: 1px solid black;
+    background-color: wheat;
+    font-size: small;
+}
+
+.content {
+    grid-area: content;
+    border: 1px solid black;
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+.ads {
+    grid-area: ads;
+    border: 1px solid black;
+    background-color: thistle;
+    padding: 25px;
+}
+
+.footer {
+    grid-area: footer;
+    border: 1px solid black;
+    background-color:antiquewhite;
+    text-align: center;
+}
